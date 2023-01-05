@@ -35,7 +35,8 @@ public class Room {
             }
             currentTemperature = currentTemperature - 1;
             return true;
-        } else
+        } else {
             return false;
+        }
     }
 }
